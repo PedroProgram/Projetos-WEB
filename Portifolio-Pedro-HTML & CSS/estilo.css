@@ -1,0 +1,1968 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@200 & display=swap');
+
+@-ms-viewport
+{
+    width: device-width;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins, sans-serif";
+}
+
+body
+{   
+    
+    background-color: #39413d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+
+
+
+}
+
+.text h3{
+    color: white;
+    font-size: 25px;
+
+}
+
+.text h1
+{
+    color: white;
+    font-size: 33px;
+    margin-top: 10px;
+
+
+}
+
+.text span 
+{
+color: #2ecc71;
+
+}
+
+.text3 h2
+{
+    color: #200404;
+    font-size: 40px;
+}
+
+
+
+input
+{
+    border-radius: 5px;
+}
+
+
+.btn
+{
+    margin-top: 20px;
+}
+
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) 
+ {
+     /* INCIO HEADER */
+ header
+ {
+     display: flex;
+     justify-content: space-around;
+     max-width: 100%;
+     align-items: center;
+     text-align: center;
+     padding-top: 10px;
+  }
+ 
+ .cabecalho 
+ {
+     display: flex;
+     gap: 25px;
+     font-weight: 300;
+     cursor: pointer;
+ }
+ .logo
+ {
+     width: 40px;
+     height: 40px;
+     background: transparent;
+     border: 1px solid #2ecc71;
+     color: #2ecc71;
+     border-radius: 50%;
+     display: inline-flex;
+     margin-bottom: 10px;
+     align-items: center;
+     justify-content: center;
+     font-size: 13px;
+     cursor: pointer;
+ 
+ }
+ button
+ {
+     color: #2ecc71;
+     background: transparent;
+     border: solid 1px #2ecc71;
+     padding: 5px;
+     border-radius: 15px;
+     font-size: 16px;
+     width: 150px;
+     cursor: pointer;
+ }
+ button:hover
+ {
+     background: #2ecc71;
+     color: white;
+ 
+ }
+ 
+ .cabecalho a
+ {
+     color: white;
+     font-size: 16px;
+ }
+ 
+ .cabecalho a:hover
+ {
+     color: #2ecc71;
+     transition: 0.3s all;
+     transition: 0.5s;
+ }
+ /* FIM HEADER */
+ 
+ 
+ 
+ /* INICIO PRINCIPAL INDEX */
+ #principal
+ {   
+     width: 576px;
+     height: auto;
+     margin: 0 auto;
+ 
+ }
+ #container
+ {   
+      width: 100%; 
+      min-height: 425px;
+     background-color: #303633;
+      border-radius: 5px; 
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding:  5px 20px;
+   
+ }
+ .img_home
+ {
+    height: 185px;
+ }
+ .text 
+ {
+     width: 371px;
+ }
+ 
+ .redes a
+ {
+     color: #2ecc71;
+     padding: 15px;
+     margin-top: 5px;
+ }
+ 
+ .redes
+ {
+     margin-top: 10px;
+ }
+ .text h2
+{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.text2 span
+{
+    color: #60c98b;
+    margin-left: 10px;
+    font-size: 23px;
+}
+.text p
+{
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    width: 300px;
+
+}
+ 
+ 
+ /* FIM PRINCIPAL INDEX */
+ 
+ 
+ /* INICIO SOBRE */
+ #sobre 
+ {
+     width: 576px;
+     height: auto;
+     margin: 0 auto;
+ 
+ }
+ 
+ .img1
+ {   border-radius: 10px;
+     border:  3px solid rgb(185, 175, 175);
+     width: 200px;
+     margin-left: 10px;
+     height: 300px;
+ }
+ .sobre_dois
+ {    width: 576px;
+      min-height: 480px;
+     background-color: #303633;
+     margin: 0 auto;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ 
+ }
+ .text h4
+{   
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+ 
+}
+ /* FIM SOBRE */
+ 
+ 
+ 
+ /* INICIO SERVIÇOS */
+ #servicos
+ {   
+     width: 576px;
+     height: auto;
+     margin: 0 auto;
+ }
+ 
+ .servico_um
+ {
+     width: 576px;
+     height: 450px;
+     background-color: #303633;
+     padding: 100px 0px;
+     border-radius: 5px;
+     margin: 0 auto;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .desenvolve
+ {   background-color: #39413d;
+     width: 192px;
+     height: 270px;
+     border-radius: 15px;
+     text-align: center;
+     margin: 10px;
+ 
+ }
+ 
+ .desenvolve i
+ {
+     font-size: 45px;
+     display: block;
+     text-align: center;
+     margin-top: 10px;
+     color: #2ecc71;
+ }
+ 
+ .desenvolve h5
+ {
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .desenvolve p
+ {
+     color: rgb(221, 213, 213);
+     font-size: 15px;
+     margin-left: 5px;
+     margin-right: 5px;
+ }
+ 
+ .titulo h2
+ {
+     color: #2ecc71;
+     font-size: 50px;
+     text-align: center;
+ }
+ /* FIM SERVIÇOS */
+ 
+ 
+ 
+ /* INICIO CONTATO */
+ .contato
+ {
+     width: 576px;
+     height: auto;
+     margin: 0 auto;
+ }
+ .content
+ {
+     width: 576px;
+     min-height: 440px;
+     margin: 0 auto;
+     background-size: cover;
+     border-radius: 10px;
+     background-color: #303633;
+     padding: 20px 0 0 10px;
+     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+     display: flex;
+     align-items: center;
+ 
+ 
+ }
+
+ .img_contato
+ {
+    height: 250px;
+ }
+ .pp
+ {
+     color: white;
+     padding-top: 10px;
+     width: 200px;
+     padding-bottom: 20px;
+ }
+ .content form
+ {
+     width: 100%;
+     max-width: 512px;
+     font-size: 18px;
+   
+ 
+ }
+ form
+ {  
+     margin-left: 60px;
+ }
+ .content .form label,input,textarea
+ {
+     display: block;
+     width: 200px;
+     height: 35px;
+     margin-bottom: 5px;
+ 
+     
+ }
+ 
+ form label
+ {
+     color: white;
+ }
+ form textarea
+ {
+     font: inherit;
+     padding: 5px;
+     margin-bottom: 10px;
+     border: solid transparent;
+     border-radius: 8px;
+ }
+ .mensagem
+ {
+     font-size: 23px;
+     color: #2ecc71;
+ }
+ 
+ /* FIM CONTATO */
+ 
+ 
+ 
+ /* INICIO RODAPE */
+ #rodape 
+ {
+     width: 576px;
+     height: 20px;
+     background: transparent;
+     color: rgba(255, 255, 255, 1.00);
+ }
+ #copy
+ {
+     width: 268px;
+     height: 10px;
+    font-size: 12px;
+     padding: 10px;
+     float: left;
+     text-align: left;
+     line-height: 30px; /*ALTURA DA CAIXA (CONTAINER)*/
+ }
+ #creditos
+ {
+     width: 288px;
+     height: 10px;
+    font-size: 12px;
+     padding: 10px;
+     float: right;
+     text-align: right;
+     line-height: 30px;
+     cursor: pointer;
+ }
+ 
+ a.creditos:hover
+ {
+     
+     background-color: transparent;
+     color: #2ecc71;
+     transition: 0.3s all;
+     transition: 0.5s;
+ 
+ }
+ 
+ #creditos a
+ {
+     color: white;
+     font-size: 12px;
+ 
+ }
+ /* FIM RODAPE */
+
+ } 
+
+
+
+
+
+
+
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px)
+{
+    /* INCIO HEADER */
+ header
+ {
+     display: flex;
+     justify-content: space-around;
+     max-width: 768px;
+     align-items: center;
+     text-align: center;
+     padding-top: 10px;
+  }
+ 
+ .cabecalho 
+ {
+     display: flex;
+     gap: 50px;
+     font-weight: 300;
+     cursor: pointer;
+ }
+ .logo
+ {
+     width: 40px;
+     height: 40px;
+     background: transparent;
+     border: 1px solid #2ecc71;
+     color: #2ecc71;
+     border-radius: 50%;
+     display: inline-flex;
+     margin-bottom: 10px;
+     align-items: center;
+     justify-content: center;
+     font-size: 13px;
+     cursor: pointer;
+ 
+ }
+ button
+ {
+     color: #2ecc71;
+     background: transparent;
+     border: solid 1px #2ecc71;
+     padding: 5px;
+     border-radius: 15px;
+     font-size: 16px;
+     width: 150px;
+     cursor: pointer;
+ }
+ button:hover
+ {
+     background: #2ecc71;
+     color: white;
+ 
+ }
+ 
+ .cabecalho a
+ {
+     color: white;
+     font-size: 16px;
+ }
+ 
+ .cabecalho a:hover
+ {
+     color: #2ecc71;
+     transition: 0.3s all;
+     transition: 0.5s;
+ }
+ /* FIM HEADER */
+ 
+ 
+ 
+ /* INICIO PRINCIPAL INDEX */
+ #principal
+ {   
+     width: 768px;
+     height: auto;
+     margin: 0 auto;
+ 
+ }
+ #container
+ {   
+      width: 100%; 
+      min-height: 580px;
+     background-color: #303633;
+      border-radius: 5px; 
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding:  5px 20px;
+   
+ 
+ }
+ .img_home
+  {
+     height: 200px;
+     padding-left: 10px;
+  }
+ .text 
+ {
+     width: 545px;
+     
+ }
+ 
+ .redes a
+ {
+     color: #2ecc71;
+     padding: 15px;
+     margin-top: 5px;
+ }
+ 
+ .redes
+ {
+     margin-top: 10px;
+ }
+ .text h2
+ {
+     color: #ffffff;
+     font-size: 45px;
+     margin-top: 0;
+     padding-left: 0;
+     margin-bottom: 25px;
+ }
+ .text2 span
+ {
+     color: #60c98b;
+     margin-left: 0;
+     font-size: 39px;
+ }
+ .text p
+ {
+     color: white;
+     font-size: 15px;
+     margin-left: 0;
+     width: 550px;
+     margin-top: 10px;
+ }
+ 
+ /* FIM PRINCIPAL INDEX */
+ 
+ 
+ /* INICIO SOBRE */
+ #sobre 
+ {
+     width: 768px;
+     height: auto;
+     margin: 0 auto;
+ 
+ }
+ 
+ .img1
+ {   border-radius: 10px;
+     border:  3px solid rgb(185, 175, 175);
+     width: 190px;
+     margin-left: 10px;
+     height: 350px;
+ }
+ .sobre_dois
+ {    width: 768px;
+      min-height: 550px;
+     background-color: #303633;
+     margin: 0 auto;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ 
+ }
+ .text h4
+ {   
+     color: rgb(255, 255, 255);
+     font-size: 32px;
+     padding-left: 0;
+     margin-bottom: 25px;
+  
+ }
+ 
+ 
+ /* FIM SOBRE */
+ 
+ 
+ 
+ /* INICIO SERVIÇOS */
+ #servicos
+ {   
+     width: 768px;
+     height: auto;
+     margin: 0 auto;
+ }
+ 
+ .servico_um
+ {
+     width: 768px;
+     height: 500px;
+     background-color: #303633;
+     padding: 100px 0px;
+     border-radius: 5px;
+     margin: 0 auto;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .desenvolve
+ {   background-color: #39413d;
+     width: 350px;
+     height: 250px;
+     border-radius: 15px;
+     margin: 20px;
+ 
+ }
+ 
+ .desenvolve i
+ {
+     font-size: 45px;
+     display: block;
+     text-align: center;
+     margin-top: 10px;
+     color: #2ecc71;
+ }
+ 
+ .desenvolve h5
+ {
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .desenvolve p
+ {
+     color: rgb(221, 213, 213);
+     font-size: 18px;
+     margin-left: 5px;
+     margin-right: 5px;
+ }
+ 
+ .titulo h2
+ {
+     color: #2ecc71;
+     font-size: 50px;
+     text-align: center;
+ }
+ /* FIM SERVIÇOS */
+ 
+ 
+ 
+ /* INICIO CONTATO */
+ .contato
+ {
+     width: 768px;
+     height: auto;
+     margin: 0 auto;
+ }
+ .content
+ {
+     width: 768px;
+     min-height: 540px;
+     margin: 0 auto;
+     background-size: cover;
+     border-radius: 10px;
+     background-color: #303633;
+     padding: 20px 0 0 10px;
+     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+     display: flex;
+     align-items: center;
+ 
+ 
+ }
+ .img_contato
+ {
+    height: 290px;
+ }
+ .pp
+ {
+     color: white;
+     padding-top: 10px;
+     width: 350px;
+     padding-bottom: 20px;
+ }
+ .content form
+ {
+     width: 100%;
+     max-width: 512px;
+     font-size: 18px;
+   
+ 
+ }
+ form
+ {
+     margin-left: 60px;
+ }
+ .content .form label,input,textarea
+ {
+     display: block;
+     width: 350px;
+     height: 35px;
+     margin-bottom: 5px;
+ 
+     
+ }
+ 
+ form label
+ {
+     color: white;
+ }
+ form textarea
+ {
+     font: inherit;
+     padding: 5px;
+     margin-bottom: 10px;
+     border: solid transparent;
+     border-radius: 8px;
+ }
+ .mensagem
+ {
+     font-size: 45px;
+     color: #2ecc71;
+ }
+ 
+ /* FIM CONTATO */
+ 
+ 
+ 
+ /* INICIO RODAPE */
+ #rodape 
+ {
+     width: 100%;
+     height: 50px;
+     background: transparent;
+     color: rgba(255, 255, 255, 1.00);
+ }
+ #copy
+ {
+     width: 300px;
+     height: 50px;
+     font-size: 13px;
+     padding: 10px;
+     float: left;
+     text-align: left;
+     line-height: 30px; /*ALTURA DA CAIXA (CONTAINER)*/
+ }
+ #creditos
+ {
+     width: 400px;
+     height: 50px;
+     font-size: 13px;
+     padding: 10px;
+     float: right;
+     text-align: right;
+     line-height: 30px;
+     cursor: pointer;
+ }
+ 
+ a.creditos:hover
+ {
+     
+     background-color: transparent;
+     color: #2ecc71;
+     transition: 0.3s all;
+     transition: 0.5s;
+ 
+ }
+ 
+ #creditos a
+ {
+     color: white;
+     font-size: 13px;
+ 
+ }
+ /* FIM RODAPE */
+
+
+
+
+}
+ 
+
+
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) 
+ {
+    /* INCIO HEADER */
+ header
+ {
+     display: flex;
+     justify-content: space-around;
+     max-width: 992px;
+     align-items: center;
+     text-align: center;
+     padding-top: 10px;
+  }
+ 
+ .cabecalho 
+ {
+     display: flex;
+     gap: 50px;
+     font-weight: 300;
+     cursor: pointer;
+ }
+ .logo
+ {
+     width: 40px;
+     height: 40px;
+     background: transparent;
+     border: 1px solid #2ecc71;
+     color: #2ecc71;
+     border-radius: 50%;
+     display: inline-flex;
+     margin-bottom: 10px;
+     align-items: center;
+     justify-content: center;
+     font-size: 13px;
+     cursor: pointer;
+ 
+ }
+ button
+ {
+     color: #2ecc71;
+     background: transparent;
+     border: solid 1px #2ecc71;
+     padding: 5px;
+     border-radius: 15px;
+     font-size: 16px;
+     width: 150px;
+     cursor: pointer;
+ }
+ button:hover
+ {
+     background: #2ecc71;
+     color: white;
+ 
+ }
+ 
+ .cabecalho a
+ {
+     color: white;
+     font-size: 16px;
+ }
+ 
+ .cabecalho a:hover
+ {
+     color: #2ecc71;
+     transition: 0.3s all;
+     transition: 0.5s;
+ }
+ /* FIM HEADER */
+ 
+ 
+ 
+ /* INICIO PRINCIPAL INDEX */
+ #principal
+ {   
+     width: 992px;
+     height: auto;
+     margin: 0 auto;
+ 
+ }
+ #container
+ {   
+      width: 100%; 
+      min-height: 550px;
+     background-color: #303633;
+      border-radius: 5px; 
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding:  5px 20px;
+   
+ 
+ }
+ .img_home
+  {
+     height: 300px;
+     padding-left: 0;
+  }
+ .text 
+ {
+     width: 550px;
+ }
+ 
+ .redes a
+ {
+     color: #2ecc71;
+     padding: 15px;
+     margin-top: 5px;
+ }
+ 
+ .redes
+ {
+     margin-top: 10px;
+ }
+ .text h2
+ {
+     color: #ffffff;
+     font-size: 45px;
+     margin-top: 0;
+     padding-left: 0;
+     margin-bottom: 25px;
+ }
+ .text2 span
+ {
+     color: #60c98b;
+     margin-left: 0;
+     font-size: 39px;
+ }
+ .text p
+ {
+     color: white;
+     font-size: 18px;
+     margin-left: 0;
+     width: 550px;
+     margin-top: 10px;
+ }
+ 
+ /* FIM PRINCIPAL INDEX */
+ 
+ 
+ /* INICIO SOBRE */
+ #sobre 
+ {
+     width: 992px;
+     height: auto;
+     margin: 0 auto;
+ 
+ }
+ 
+ .img1
+ {   border-radius: 10px;
+     border:  3px solid rgb(185, 175, 175);
+     width: 300px;
+     margin-left: 10px;
+     height: 400px;
+ }
+ .sobre_dois
+ {    width: 992px;
+      min-height: 550px;
+     background-color: #303633;
+     margin: 0 auto;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ 
+ }
+ .text h4
+ {   
+     color: rgb(255, 255, 255);
+     font-size: 32px;
+     padding-left: 0;
+     margin-bottom: 25px;
+  
+ }
+ 
+ 
+ /* FIM SOBRE */
+ 
+ 
+ 
+ /* INICIO SERVIÇOS */
+ #servicos
+ {   
+     width: 992px;
+     height: auto;
+     margin: 0 auto;
+ }
+ 
+ .servico_um
+ {
+     width: 992px;
+     height: 500px;
+     background-color: #303633;
+     padding: 100px 0px;
+     border-radius: 5px;
+     margin: 0 auto;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .desenvolve
+ {   background-color: #39413d;
+     width: 350px;
+     height: 250px;
+     border-radius: 15px;
+     margin: 20px;
+ 
+ }
+ 
+ .desenvolve i
+ {
+     font-size: 45px;
+     display: block;
+     text-align: center;
+     margin-top: 10px;
+     color: #2ecc71;
+ }
+ 
+ .desenvolve h5
+ {
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .desenvolve p
+ {
+     color: rgb(221, 213, 213);
+     font-size: 18px;
+     margin-left: 5px;
+     margin-right: 5px;
+ }
+ 
+ .titulo h2
+ {
+     color: #2ecc71;
+     font-size: 50px;
+     text-align: center;
+ }
+ /* FIM SERVIÇOS */
+ 
+ 
+ 
+ /* INICIO CONTATO */
+ .contato
+ {
+     width: 992px;
+     height: auto;
+     margin: 0 auto;
+ }
+ .content
+ {
+     width: 992px;
+     min-height: 540px;
+     margin: 0 auto;
+     background-size: cover;
+     border-radius: 10px;
+     background-color: #303633;
+     padding: 20px 0 0 10px;
+     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+     display: flex;
+     align-items: center;
+ 
+ 
+ }
+ .img_contato
+ {
+    height: 400px;
+ }
+ .pp
+ {
+     color: white;
+     padding-top: 10px;
+     width: 400px;
+     padding-bottom: 20px;
+ }
+ .content form
+ {
+     width: 100%;
+     max-width: 512px;
+     font-size: 18px;
+   
+ 
+ }
+ form
+ {
+     margin-left: 60px;
+ }
+ .content .form label,input,textarea
+ {
+     display: block;
+     width: 400px;
+     height: 35px;
+     margin-bottom: 5px;
+ 
+     
+ }
+ 
+ form label
+ {
+     color: white;
+ }
+ form textarea
+ {
+     font: inherit;
+     padding: 5px;
+     margin-bottom: 10px;
+     border: solid transparent;
+     border-radius: 8px;
+ }
+ .mensagem
+ {
+     font-size: 45px;
+     color: #2ecc71;
+ }
+ 
+ /* FIM CONTATO */
+ 
+ 
+ 
+ /* INICIO RODAPE */
+ #rodape 
+ {
+     width: 100%;
+     height: 50px;
+     background: transparent;
+     color: rgba(255, 255, 255, 1.00);
+ }
+ #copy
+ {
+     width: 500px;
+     height: 50px;
+     font-size: 17px;
+     padding: 10px;
+     float: left;
+     text-align: left;
+     line-height: 30px; /*ALTURA DA CAIXA (CONTAINER)*/
+ }
+ #creditos
+ {
+     width: 400px;
+     height: 50px;
+     font-size: 17px;
+     padding: 10px;
+     float: right;
+     text-align: right;
+     line-height: 30px;
+     cursor: pointer;
+ }
+ 
+ a.creditos:hover
+ {
+     
+     background-color: transparent;
+     color: #2ecc71;
+     transition: 0.3s all;
+     transition: 0.5s;
+ 
+ }
+ 
+ #creditos a
+ {
+     color: white;
+     font-size: 16px;
+ 
+ }
+ /* FIM RODAPE */
+
+
+
+}
+
+
+
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{   /* INCIO HEADER */
+ header
+{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+ }
+
+.cabecalho 
+{
+    display: flex;
+    gap: 50px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.logo
+{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+button
+{
+    color: #2ecc71;
+    background: transparent;
+    border: solid 1px #2ecc71;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 150px;
+    cursor: pointer;
+}
+button:hover
+{
+    background: #2ecc71;
+    color: white;
+
+}
+
+.cabecalho a
+{
+    color: white;
+    font-size: 16px;
+}
+
+.cabecalho a:hover
+{
+    color: #2ecc71;
+    transition: 0.3s all;
+    transition: 0.5s;
+}
+/* FIM HEADER */
+
+
+
+/* INICIO PRINCIPAL INDEX */
+#principal
+{   
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+
+}
+#container
+{   
+     width: 100%; 
+     min-height: 550px;
+    background-color: #303633;
+     border-radius: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:  5px 20px;
+  
+
+}
+.img_home
+ {
+    height: 400px;
+    padding-left: 0;
+ }
+.text 
+{
+    width: 550px;
+}
+
+.redes a
+{
+    color: #2ecc71;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.redes
+{
+    margin-top: 10px;
+}
+.text h2
+{
+    color: #ffffff;
+    font-size: 45px;
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+.text2 span
+{
+    color: #60c98b;
+    margin-left: 0;
+    font-size: 39px;
+}
+.text p
+{
+    color: white;
+    font-size: 18px;
+    margin-left: 0;
+    width: 550px;
+    margin-top: 10px;
+}
+
+/* FIM PRINCIPAL INDEX */
+
+
+/* INICIO SOBRE */
+#sobre 
+{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.img1
+{   border-radius: 10px;
+    border:  3px solid rgb(185, 175, 175);
+    width: 320px;
+    margin-left: 10px;
+    height: 450px;
+}
+.sobre_dois
+{    width: 1200px;
+     min-height: 550px;
+    background-color: #303633;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.text h4
+{   
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    padding-left: 0;
+    margin-bottom: 25px;
+ 
+}
+
+
+/* FIM SOBRE */
+
+
+
+/* INICIO SERVIÇOS */
+#servicos
+{   
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.servico_um
+{
+    width: 1200px;
+    height: 500px;
+    background-color: #303633;
+    padding: 100px 0px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desenvolve
+{   background-color: #39413d;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+
+.desenvolve i
+{
+    font-size: 45px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #2ecc71;
+}
+
+.desenvolve h5
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.desenvolve p
+{
+    color: rgb(221, 213, 213);
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.titulo h2
+{
+    color: #2ecc71;
+    font-size: 50px;
+    text-align: center;
+}
+/* FIM SERVIÇOS */
+
+
+
+/* INICIO CONTATO */
+.contato
+{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.content
+{
+    width: 1200px;
+    min-height: 540px;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: #303633;
+    padding: 20px 0 0 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+
+
+}
+.img_contato
+{
+   height: 450px;
+}
+.pp
+{
+    color: white;
+    padding-top: 10px;
+    width: 400px;
+    padding-bottom: 20px;
+}
+.content form
+{
+    width: 100%;
+    max-width: 512px;
+    font-size: 18px;
+  
+
+}
+form
+{
+    margin-left: 60px;
+}
+.content .form label,input,textarea
+{
+    display: block;
+    width: 400px;
+    height: 35px;
+    margin-bottom: 5px;
+
+    
+}
+
+form label
+{
+    color: white;
+}
+form textarea
+{
+    font: inherit;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid transparent;
+    border-radius: 8px;
+}
+.mensagem
+{
+    font-size: 45px;
+    color: #2ecc71;
+}
+
+/* FIM CONTATO */
+
+
+
+/* INICIO RODAPE */
+#rodape 
+{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    color: rgba(255, 255, 255, 1.00);
+}
+#copy
+{
+    width: 570px;
+    height: 50px;
+    font-size: 17px;
+    padding: 10px;
+    float: left;
+    text-align: left;
+    line-height: 30px; /*ALTURA DA CAIXA (CONTAINER)*/
+}
+#creditos
+{
+    width: 570px;
+    height: 50px;
+    font-size: 17px;
+    padding: 10px;
+    float: right;
+    text-align: right;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+a.creditos:hover
+{
+    
+    background-color: transparent;
+    color: #2ecc71;
+    transition: 0.3s all;
+    transition: 0.5s;
+
+}
+
+#creditos a
+{
+    color: white;
+    font-size: 16px;
+
+}
+/* FIM RODAPE */
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px)
+{  
+     /* INCIO HEADER */
+ header
+ {
+     display: flex;
+     justify-content: space-around;
+     max-width: 1400px;
+     align-items: center;
+     text-align: center;
+     padding-top: 10px;
+  }
+ 
+ .cabecalho 
+ {
+     display: flex;
+     gap: 50px;
+     font-weight: 300;
+     cursor: pointer;
+ }
+ .logo
+ {
+     width: 40px;
+     height: 40px;
+     background: transparent;
+     border: 1px solid #2ecc71;
+     color: #2ecc71;
+     border-radius: 50%;
+     display: inline-flex;
+     margin-bottom: 10px;
+     align-items: center;
+     justify-content: center;
+     font-size: 16px;
+     cursor: pointer;
+ 
+ }
+ button
+ {
+     color: #2ecc71;
+     background: transparent;
+     border: solid 1px #2ecc71;
+     padding: 5px;
+     border-radius: 15px;
+     font-size: 16px;
+     width: 150px;
+     cursor: pointer;
+ }
+ button:hover
+ {
+     background: #2ecc71;
+     color: white;
+ 
+ }
+ 
+ .cabecalho a
+ {
+     color: white;
+     font-size: 16px;
+ }
+ 
+ .cabecalho a:hover
+ {
+     color: #2ecc71;
+     transition: 0.3s all;
+     transition: 0.5s;
+ }
+ /* FIM HEADER */
+ 
+ 
+ 
+ /* INICIO PRINCIPAL INDEX */
+ #principal
+ {   
+     width: 1400px;
+     height: auto;
+     margin: 0 auto;
+ 
+ }
+ #container
+ {   
+      width: 100%; 
+      min-height: 550px;
+     background-color: #303633;
+      border-radius: 5px; 
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding:  5px 20px;
+   
+ 
+ }
+ .img_home
+  {
+     height: 400px;
+     padding-left: 0;
+  }
+ .text 
+ {
+     width: 550px;
+ }
+ 
+ .redes a
+ {
+     color: #2ecc71;
+     padding: 15px;
+     margin-top: 5px;
+ }
+ 
+ .redes
+ {
+     margin-top: 10px;
+ }
+ .text h2
+ {
+     color: #ffffff;
+     font-size: 45px;
+     margin-top: 0;
+     padding-left: 0;
+     margin-bottom: 25px;
+ }
+ .text2 span
+ {
+     color: #60c98b;
+     margin-left: 0;
+     font-size: 39px;
+ }
+ .text p
+ {
+     color: white;
+     font-size: 18px;
+     margin-left: 0;
+     width: 550px;
+     margin-top: 10px;
+ }
+ 
+ /* FIM PRINCIPAL INDEX */
+ 
+ 
+ /* INICIO SOBRE */
+ #sobre 
+ {
+     width: 1400px;
+     height: auto;
+     margin: 0 auto;
+ 
+ }
+ 
+ .img1
+ {   border-radius: 10px;
+     border:  3px solid rgb(185, 175, 175);
+     width: 320px;
+     margin-left: 10px;
+     height: 450px;
+ }
+ .sobre_dois
+ {    width: 1400px;
+      min-height: 550px;
+     background-color: #303633;
+     margin: 0 auto;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ 
+ }
+ .text h4
+ {   
+     color: rgb(255, 255, 255);
+     font-size: 32px;
+     padding-left: 0;
+     margin-bottom: 25px;
+  
+ }
+ 
+ 
+ /* FIM SOBRE */
+ 
+ 
+ 
+ /* INICIO SERVIÇOS */
+ #servicos
+ {   
+     width: 1400px;
+     height: auto;
+     margin: 0 auto;
+ }
+ 
+ .servico_um
+ {
+     width: 1400px;
+     height: 500px;
+     background-color: #303633;
+     padding: 100px 0px;
+     border-radius: 5px;
+     margin: 0 auto;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .desenvolve
+ {   background-color: #39413d;
+     width: 450px;
+     height: 250px;
+     border-radius: 15px;
+     margin: 20px;
+ 
+ }
+ 
+ .desenvolve i
+ {
+     font-size: 45px;
+     display: block;
+     text-align: center;
+     margin-top: 10px;
+     color: #2ecc71;
+ }
+ 
+ .desenvolve h5
+ {
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .desenvolve p
+ {
+     color: rgb(221, 213, 213);
+     font-size: 18px;
+     margin-left: 5px;
+     margin-right: 5px;
+ }
+ 
+ .titulo h2
+ {
+     color: #2ecc71;
+     font-size: 50px;
+     text-align: center;
+ }
+ /* FIM SERVIÇOS */
+ 
+ 
+ 
+ /* INICIO CONTATO */
+ .contato
+ {
+     width: 1400px;
+     height: auto;
+     margin: 0 auto;
+ }
+ .content
+ {
+     width: 1400px;
+     min-height: 540px;
+     margin: 0 auto;
+     background-size: cover;
+     border-radius: 10px;
+     background-color: #303633;
+     padding: 20px 0 0 10px;
+     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+     display: flex;
+     align-items: center;
+ 
+ 
+ }
+ .img_contato
+ {
+    height: 550px;
+ }
+ .pp
+ {
+     color: white;
+     padding-top: 10px;
+     width: 400px;
+     padding-bottom: 20px;
+ }
+ .content form
+ {
+     width: 100%;
+     max-width: 512px;
+     font-size: 20px;
+   
+ 
+ }
+ form
+ {
+     margin-left: 60px;
+ }
+ .content .form label,input,textarea
+ {
+     display: block;
+     width: 500px;
+     height: 35px;
+     margin-bottom: 5px;
+ 
+     
+ }
+ 
+ form label
+ {
+     color: white;
+ }
+ form textarea
+ {
+     font: inherit;
+     padding: 5px;
+     margin-bottom: 10px;
+     border: solid transparent;
+     border-radius: 8px;
+ }
+ .mensagem
+ {
+     font-size: 55px;
+     color: #2ecc71;
+ }
+ 
+ /* FIM CONTATO */
+ 
+ 
+ 
+ /* INICIO RODAPE */
+ #rodape 
+ {
+     width: 100%;
+     height: 50px;
+     background: transparent;
+     color: rgba(255, 255, 255, 1.00);
+ }
+ #copy
+ {
+     width: 570px;
+     height: 50px;
+     font-size: 17px;
+     padding: 10px;
+     float: left;
+     text-align: left;
+     line-height: 30px; /*ALTURA DA CAIXA (CONTAINER)*/
+ }
+ #creditos
+ {
+     width: 570px;
+     height: 50px;
+     font-size: 17px;
+     padding: 10px;
+     float: right;
+     text-align: right;
+     line-height: 30px;
+     cursor: pointer;
+ }
+ 
+ a.creditos:hover
+ {
+     
+     background-color: transparent;
+     color: #2ecc71;
+     transition: 0.3s all;
+     transition: 0.5s;
+ 
+ }
+ 
+ #creditos a
+ {
+     color: white;
+     font-size: 16px;
+ 
+ }
+ /* FIM RODAPE */
+}
+
+
+
+
+

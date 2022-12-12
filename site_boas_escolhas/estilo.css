@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* CSS Document */
+
+footer, header, section, article, nav, aside, hgroup
+{
+    display: block;
+}
+
+ul, ol, a,li
+{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(180,171,171,1.00);
+    background: url(imagens/bbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /* o conteudo rola sobre a imagem */
+    background-position: center bottom; /* Posicionamento da imagem */
+    background-size: cover;
+    color: dimgray;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+#principal
+{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+#topo
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(212, 169, 117);
+}
+
+#logo
+{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(107, 95, 62);
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+#logo a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#logo a:hover
+{
+    color: aqua;
+}
+
+#imagemconteudo
+{
+    width: 520px;
+    min-height: 400px;
+
+
+}
+#conteudoprincipal
+{
+    width: 640px;
+    min-height: 400px;
+    background-color: white;
+}
+#conteudoprincipal h1
+{
+    font-size: 16px;
+    color: darkgray;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#conteudoprincipal span
+{
+    font-size: 25px;
+}
+#submenu
+{
+    width: 1200px;
+    height: 250px;
+    background-color: rgb(92, 76, 56);
+    display: table-cell;
+    vertical-align: middle;
+
+
+}
+
+#conteudo
+{
+    width: 1160px;
+    min-height: 420px;
+    background-color: white;
+    padding: 20px;
+}
+
+#destaque
+{
+    width: 1200px;
+    height: 200px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: rgb(68,201,235)   url(imagens/background-01.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.linksubmenu
+{
+    display: table-cell;
+    width: 240px;
+    height: 250px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+
+    
+}
+a.linkmenuprincipal
+{
+    color: white;
+}
+a.linksubmenu:hover
+{
+    color: aqua;
+}
+#menuprincipal
+{
+    width: 900px;
+    height: 100px;
+    background:transparent;
+    display: table-cell;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+#listamenuprincipal
+{   
+    display: table;
+    width: auto;
+    float: right;
+}
+
+#listamenuprincipal li
+{
+    float: left;
+    margin-left: 20px;
+}
+#subrodape
+{
+    width: 1180px;
+    min-height: 330px;
+    background:rgb(58, 55, 56) url(imagens/background-02.jpg);
+    background-size: cover;
+    padding: 10px;
+    background-blend-mode: overlay;
+}
+
+#rodape
+{
+    width: 1160px;
+    height: 10px;
+    padding: 20px;
+    background-color: rgb(177, 162, 162);
+    line-height: 10px;
+}
+
+#creditos
+{
+    width: 50%;
+    height: 50px;
+    text-align: right;
+}
+
+#copy
+{
+    width: 50%;
+    height: 50px;
+}
+
+.linkcredito
+{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+a.linkcredito:hover
+{
+
+    color: #016ea0;
+}
+.itenssubrodape
+{
+    width: 275px;
+    min-height: 330px;
+    margin: 10px;
+    float: left;
+}
+
+
+.itenssubrodape hr
+{
+    border-color: #444d49;
+    margin-top: 5px;
+}
+
+.itenssubrodape h3, hr
+{
+    margin: 0;
+}
+
+#listasubmenu li
+{
+    float: left;
+}
+
+.linkmenuprincipal
+{
+    float: left;
+    margin: 20px;
+    text-align: right;
+}
+
+#logo span
+{
+    font-size: 30px;
+}
+
+.fonteserifada
+{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-weight: bold;
+
+}
+
+.textoamarelo
+{
+    color: #f9cd36;
+}
+
+.textorosa
+{
+    color: #f36174;
+}
+
+.btlink
+{   
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    box-shadow: 5px 5px #bda7aa;
+    color: white;
+    display: block;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.bgamarelo
+{
+    background-color: #fbd312;
+
+}
+
+.bgrosa
+{
+  background-color:  #f36174;
+}
+
+.bglaranja
+{
+   background-color: #ff7659 ;
+}
+
+.bgverde
+{
+    background-color: #55deaa;
+}
+
+.bgroxo
+{
+    background-color: #9c7bc2;
+}
+
+.direita
+{
+    float: right;
+}
+.esquerda
+{
+    float: left;
+}
